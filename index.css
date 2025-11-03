@@ -95,3 +95,38 @@ body {
   opacity: 0.75;
   margin-block-end: var(--space-small);
 }
+
+/* MARK: social-links */
+.social-links {
+  display: grid;
+  gap: var(--space-small);
+  list-style: none;
+}
+
+.social-links__item {
+  background-color: var(--color-grey-700);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.social-links__link {
+  display: block;
+  text-decoration: none;
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  letter-spacing: 0.2;
+  padding: var(--space-small);
+  border-radius: inherit;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-links__link:hover,
+.social-links__link:focus {
+  background-color: var(--color-green);
+  color: var(--color-grey-900);
+}
+
+.social-links__link:focus {
+  outline: none;
+}
