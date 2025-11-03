@@ -57,3 +57,13 @@ body {
   width: calc(5.35vw + 19.1875rem);
   margin-inline: auto;
 }
+
+/* MARK: avatar */
+.avatar {
+  display: block;
+  width: 5.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-inline: auto;
+  margin-block-end: var(--space-medium);
+}
