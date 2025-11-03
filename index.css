@@ -68,13 +68,13 @@ body {
   aspect-ratio: 1;
   border-radius: 50%;
   margin-inline: auto;
-  margin-block-end: var(--space-xlarge);
+  margin-block-end: var(--space-large);
 }
 
 /* MARK: person-info */
 .person-info {
   text-align: center;
-  margin-block-end: var(--space-large);
+  margin-block-end: var(--space-xlarge);
 }
 
 .person-info__name {
