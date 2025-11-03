@@ -117,7 +117,7 @@ body {
   font-family: var(--font-family-bold);
   font-size: var(--font-size-base);
   color: var(--color-white);
-  letter-spacing: 0.2;
+  letter-spacing: 0.0125rem;
   padding: var(--space-small);
   border-radius: inherit;
   transition: background-color 0.3s ease-in-out;
