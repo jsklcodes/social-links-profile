@@ -41,6 +41,7 @@
   --space-large: 2.5rem;
   --space-medium: 1.875rem;
   --space-small: 1rem;
+  --space-xsmall: 0.75rem;
 }
 
 body {
@@ -66,4 +67,31 @@ body {
   border-radius: 50%;
   margin-inline: auto;
   margin-block-end: var(--space-medium);
+}
+
+/* MARK: person-info */
+.person-info {
+  text-align: center;
+}
+
+.person-info__name {
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-large);
+  color: var(--color-white);
+  margin-block-end: var(--space-xsmall);
+}
+
+.person-info__location {
+  font-family: var(--font-family-semibold);
+  font-size: var(--font-size-base);
+  color: var(--color-green);
+  margin-block-end: var(--space-medium);
+}
+
+.person-info__bio {
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  opacity: 0.75;
+  margin-block-end: var(--space-small);
 }
