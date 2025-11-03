@@ -46,3 +46,12 @@
 body {
   background-color: var(--color-grey-900);
 }
+
+/* MARK: card */
+.card {
+  border-radius: 1rem;
+  background-color: var(--color-grey-800);
+  padding: clamp(var(--space-medium), 5vw, var(--space-large));
+  width: calc(5.35vw + 19.1875rem);
+  margin-inline: auto;
+}
