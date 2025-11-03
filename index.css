@@ -42,3 +42,7 @@
   --space-medium: 1.875rem;
   --space-small: 1rem;
 }
+
+body {
+  background-color: var(--color-grey-900);
+}
